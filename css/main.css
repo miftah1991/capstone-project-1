@@ -1,3 +1,57 @@
+:root {
+  --title-font: "COCOGOOSE", sans-serif;
+  --main-font: "Lato", sans-serif;
+  --primary-color-black: #272a31;
+  --primary-color-orangek: #ec5242;
+  --primary-color-gray: #d3d3d3;
+  --text-font-size: 1em;
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.17rem;
+  --h4-font-size: 1.12rem;
+  --h5-font-size: 0.83rem;
+  --h6-font-size: 0.75rem;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  font-size: var(--text-font-size);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h5-font-size);
 }
